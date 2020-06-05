@@ -1,2 +1,2 @@
 # eunit99.github.io
-Emmanuel Uchenna portfolio
+Eunit99 porfolio available at https://eunit99.github.io
