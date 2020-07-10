@@ -825,6 +825,58 @@ a:hover {
   background-color: #000000;
 }
 
+.content-wrapper {
+  margin-top: 1rem;
+}
+
+.quote-title {
+  color: #1e1e1e;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: .3rem auto;
+}
+
+.quote-content {
+  margin: 18px auto;
+  font-style: italic;
+}
+
+.quote-author,
+.new-quote {
+  float: right;
+  position: absolute;
+  right: 4%;
+}
+
+.heart {
+  float: left;
+}
+
+.heart,
+.quote-author {
+  margin: .2rem auto;
+}
+
+.heart,
+.new-quote {
+  cursor: pointer;
+}
+
+.new-quote {
+  font-weight: 700;
+  border-bottom: 2px dotted #1e1e1e;
+  margin: 2rem auto;
+}
+
+.new-quote:hover {
+  color: #000000;
+  border-bottom: 2px dotted #000000;
+  transition: 600ms linear;
+  -webkit-transition: 600ms linear;
+  -moz-transition: 600ms linear;
+  -ms-transition: 600ms linear;
+  -o-transition: 600ms linear;
+}
 
 /*======================================
 //--//-->   SERVICES
@@ -901,6 +953,10 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  height: 370px;
+  max-height: 370px;
+  width: 98%;
+  max-width: 98%;
 }
 
 .work-box:hover img {
@@ -1211,6 +1267,14 @@ a:hover {
 //--//-->   FOOTER
 ======================================*/
 
+.copyright {
+  font-weight: 700;
+}
+
+.copyright-box .copyright {
+  color: #000000;
+}
+
 footer {
   text-align: center;
   color: #000;
@@ -1225,9 +1289,6 @@ footer .credits {
   margin-bottom: 0;
 }
 
-footer .credits a {
-  color: #fff;
-}
 
 
 /*======================================
