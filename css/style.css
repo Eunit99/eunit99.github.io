@@ -269,50 +269,6 @@ a:hover {
 	transition: all 500ms ease;
 }
 
-
-/* ---------------------------------------------- /*
- * Mouse animate icon
-/* ---------------------------------------------- */
-
-.mouse-icon {
-	position: absolute;
-	left: 50%;
-	bottom: 40px;
-	border: 2px solid #fff;
-	border-radius: 16px;
-	height: 50px;
-	width: 30px;
-	margin-left: -17px;
-	display: block;
-	z-index: 10;
-}
-
-.mouse-icon .wheel {
-	-webkit-animation-name: drop;
-	-webkit-animation-duration: 1s;
-	-webkit-animation-timing-function: linear;
-	-webkit-animation-delay: 0s;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-play-state: running;
-	animation-name: drop;
-	animation-duration: 1s;
-	animation-timing-function: linear;
-	animation-delay: 0s;
-	animation-iteration-count: infinite;
-	animation-play-state: running;
-}
-
-.mouse-icon .wheel {
-	position: relative;
-	border-radius: 10px;
-	background: #fff;
-	width: 4px;
-	height: 10px;
-	top: 4px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 @-webkit-keyframes drop {
 	0% {
 		top: 5px;
@@ -1482,10 +1438,4 @@ footer .credits {
 		bottom: 15px;
 	}
 
-	<<<<<<< HEAD
 }
-
-=======
-}
-
->>>>>>>b665bfd928a67ce69a483bf2d73115030c0134be
