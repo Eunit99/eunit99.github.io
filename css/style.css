@@ -721,7 +721,8 @@ a:hover {
 .intro .name-container {
 	position: absolute;
 	bottom: 12%;
-	left: 23%;
+	right: 20%;
+	left: 20%;
 }
 
 .intro .text-slider-items {
