@@ -263,8 +263,4 @@ const b = baffle(".intro-title");
 b.set({
 	characters: "█▓ ▒░/ █░▓/ █▒▒▓/█ ░█ █░▓/ █▒▒▓/█ ░█ ▒/ ▒▓░ █<░▒ ▒/ ▒▓░ █<░▒ ▓/░>",
 	speed: 100
-<<<<<<< HEAD
 }).start().reveal(5000);
-=======
-}).start().reveal(5000);
->>>>>>> b665bfd928a67ce69a483bf2d73115030c0134be
