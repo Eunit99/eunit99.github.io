@@ -940,6 +940,14 @@ a:hover {
 
 .work-img img {
 	transition: all 1s;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+}
+
+.work-img img:hover {
+	transition: all 1s;
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
 }
 
 .work-content {
