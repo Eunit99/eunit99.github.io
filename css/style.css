@@ -1051,6 +1051,13 @@ a:hover {
     line-height: 1.6;
 }
 
+<<<<<<< HEAD
+=======
+.displayNone {
+    display: none;
+}
+
+>>>>>>> b665bfd928a67ce69a483bf2d73115030c0134be
 
 /*======================================
 //--//-->   BLOG
@@ -1451,4 +1458,8 @@ footer .credits {
     .back-to-top {
         bottom: 15px;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> b665bfd928a67ce69a483bf2d73115030c0134be
