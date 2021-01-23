@@ -586,6 +586,8 @@ a:hover {
 .navbar.navbar-b.navbar-reduce .nav-link.resume.border {
   border-width: 2px;
   border-radius: 32px;
+  width: 120px;
+  padding: 12px;
 }
 
 .navbar.navbar-b.navbar-trans .nav-link.resume.border {
