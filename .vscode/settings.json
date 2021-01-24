@@ -8,5 +8,6 @@
         "netlify",
         "reactjs",
         "uchenna"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
