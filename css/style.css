@@ -7,7 +7,7 @@
 
 
 /*======================================
-//--//-->   STYLES GENERALES
+//--//-->   STYLES GENERAL
 ======================================*/
 
 body {
@@ -112,6 +112,11 @@ a:hover {
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center center;
+}
+
+.home-bg {
+	background-image:
+		url(img/intro-bg.jpg);
 }
 
 .overlay-mf {
@@ -428,7 +433,7 @@ a:hover {
 }
 
 
-/* Prelaoder */
+/* Preloader */
 
 #preloader {
 	position: fixed;
@@ -821,6 +826,11 @@ a:hover {
 	color: #4e4e4e;
 }
 
+
+.progress-bar {
+	width: 100%;
+}
+
 .skill-mf .progress {
 	background-color: #d9d9d9;
 	margin: .5rem 0 1.2rem 0;
@@ -879,11 +889,11 @@ a:hover {
 .new-quote:hover {
 	color: #000000;
 	border-bottom: 2px dotted #000000;
-	transition: 600ms linear;
 	-webkit-transition: 600ms linear;
 	-moz-transition: 600ms linear;
 	-ms-transition: 600ms linear;
 	-o-transition: 600ms linear;
+	transition: 600ms linear;
 }
 
 
@@ -1033,6 +1043,10 @@ a:hover {
 /*======================================
 //--//-->   TESTIMONIALS
 ======================================*/
+
+.testimonials-bg {
+	background-image: url(img/overlay-bg.jpg)
+}
 
 .testimonials .owl-carousel .owl-item img {
 	width: auto;
@@ -1311,7 +1325,7 @@ footer .credits {
 
 
 /*======================================
-//--//-->   CONtaCT FORM
+//--//-->   CONTACT FORM
 ======================================*/
 
 #sendmessage {
