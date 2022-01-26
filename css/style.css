@@ -114,11 +114,6 @@ a:hover {
 	background-position: center center;
 }
 
-.home-bg {
-	background-image:
-		url(img/intro-bg.jpg);
-}
-
 .overlay-mf {
 	background-color: #000000;
 }
@@ -1044,9 +1039,6 @@ a:hover {
 //--//-->   TESTIMONIALS
 ======================================*/
 
-.testimonials-bg {
-	background-image: url(img/overlay-bg.jpg)
-}
 
 .testimonials .owl-carousel .owl-item img {
 	width: auto;
