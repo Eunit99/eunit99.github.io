@@ -5,7 +5,6 @@
   License: https://bootstrapmade.com/license/
 */
 
-
 /*======================================
 //--//-->   STYLES GENERAL
 ======================================*/
@@ -15,12 +14,7 @@ body {
 	color: #4e4e4e;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
 	color: #1e1e1e;
 }
 
@@ -75,16 +69,11 @@ a:hover {
 	color: #4e4e4e !important;
 }
 
-.box-shadow,
-.paralax-mf,
-.service-box,
-.work-box,
-.card-blog {
+.box-shadow, .paralax-mf, .service-box, .work-box, .card-blog {
 	box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
-.box-shadow-a,
-.button:hover {
+.box-shadow-a, .button:hover {
 	box-shadow: 0 0 0 4px #d9d9d9;
 }
 
@@ -144,7 +133,6 @@ a:hover {
 	vertical-align: middle;
 }
 
-
 /*--/ Sections /--*/
 
 .sect-4 {
@@ -158,7 +146,6 @@ a:hover {
 .sect-mt4 {
 	margin-top: 4rem;
 }
-
 
 /*--/ Title s /--*/
 
@@ -203,7 +190,6 @@ a:hover {
 	margin: 0 auto;
 }
 
-
 /*--/ Title Left /--*/
 
 .title-box-2 {
@@ -224,7 +210,6 @@ a:hover {
 	bottom: -12px;
 }
 
-
 /*------/ Box /------*/
 
 .box-pl2 {
@@ -239,7 +224,6 @@ a:hover {
 	z-index: 2;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
-
 
 /*------/ Socials /------*/
 
@@ -275,12 +259,10 @@ a:hover {
 		top: 5px;
 		opacity: 0;
 	}
-
 	30% {
 		top: 10px;
 		opacity: 1;
 	}
-
 	100% {
 		top: 25px;
 		opacity: 0;
@@ -292,28 +274,19 @@ a:hover {
 		top: 5px;
 		opacity: 0;
 	}
-
 	30% {
 		top: 10px;
 		opacity: 1;
 	}
-
 	100% {
 		top: 25px;
 		opacity: 0;
 	}
 }
 
-
 /*------/ Ul resect /------*/
 
-.ul-resect,
-.socials ul,
-.list-ico,
-.blog-wrapper .post-meta ul,
-.box-comments .list-comments,
-.widget-sidebar .list-sidebar,
-.widget-tags ul {
+.ul-resect, .socials ul, .list-ico, .blog-wrapper .post-meta ul, .box-comments .list-comments, .widget-sidebar .list-sidebar, .widget-tags ul {
 	list-style: none;
 	padding-left: 0;
 	margin-bottom: 0;
@@ -328,7 +301,6 @@ a:hover {
 	margin-right: 10px;
 }
 
-
 /*------/ Ico Circle /------*/
 
 .ico-circle {
@@ -342,7 +314,6 @@ a:hover {
 	box-shadow: 0 0 0 10px #000000;
 	display: block;
 }
-
 
 /*------/ Owl Carousel /------*/
 
@@ -375,7 +346,6 @@ a:hover {
 	width: 25px;
 }
 
-
 /*--/ Scrolltop s /--*/
 
 .scrolltop-mf {
@@ -402,7 +372,6 @@ a:hover {
 	border-radius: 50%;
 }
 
-
 /* Back to top button */
 
 .back-to-top {
@@ -426,7 +395,6 @@ a:hover {
 	padding-top: 12px;
 	color: #fff;
 }
-
 
 /* Preloader */
 
@@ -460,7 +428,6 @@ a:hover {
 		-webkit-transform: rotate(0deg);
 		transform: rotate(0deg);
 	}
-
 	100% {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
@@ -472,13 +439,11 @@ a:hover {
 		-webkit-transform: rotate(0deg);
 		transform: rotate(0deg);
 	}
-
 	100% {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
 	}
 }
-
 
 /*======================================
 //--//-->   NAVBAR
@@ -495,22 +460,19 @@ a:hover {
 	box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
 }
 
-.navbar-b.navbar-trans .nav-item,
-.navbar-b.navbar-reduce .nav-item {
+.navbar-b.navbar-trans .nav-item, .navbar-b.navbar-reduce .nav-item {
 	position: relative;
 	padding-right: 10px;
 	padding-left: 0;
 }
 
-.navbar-b.navbar-trans .nav-link,
-.navbar-b.navbar-reduce .nav-link {
+.navbar-b.navbar-trans .nav-link, .navbar-b.navbar-reduce .nav-link {
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 600;
 }
 
-.navbar-b.navbar-trans .nav-link:before,
-.navbar-b.navbar-reduce .nav-link:before {
+.navbar-b.navbar-trans .nav-link:before, .navbar-b.navbar-reduce .nav-link:before {
 	content: '';
 	position: absolute;
 	margin-left: 0px;
@@ -521,24 +483,15 @@ a:hover {
 	transition: all 500ms ease;
 }
 
-.navbar-b.navbar-trans .nav-link:hover,
-.navbar-b.navbar-reduce .nav-link:hover {
+.navbar-b.navbar-trans .nav-link:hover, .navbar-b.navbar-reduce .nav-link:hover {
 	color: #1B1B1B;
 }
 
-.navbar-b.navbar-trans .nav-link:hover:before,
-.navbar-b.navbar-reduce .nav-link:hover:before {
+.navbar-b.navbar-trans .nav-link:hover:before, .navbar-b.navbar-reduce .nav-link:hover:before {
 	width: 35px;
 }
 
-.navbar-b.navbar-trans .show>.nav-link:before,
-.navbar-b.navbar-trans .active>.nav-link:before,
-.navbar-b.navbar-trans .nav-link.show:before,
-.navbar-b.navbar-trans .nav-link.active:before,
-.navbar-b.navbar-reduce .show>.nav-link:before,
-.navbar-b.navbar-reduce .active>.nav-link:before,
-.navbar-b.navbar-reduce .nav-link.show:before,
-.navbar-b.navbar-reduce .nav-link.active:before {
+.navbar-b.navbar-trans .show>.nav-link:before, .navbar-b.navbar-trans .active>.nav-link:before, .navbar-b.navbar-trans .nav-link.show:before, .navbar-b.navbar-trans .nav-link.active:before, .navbar-b.navbar-reduce .show>.nav-link:before, .navbar-b.navbar-reduce .active>.nav-link:before, .navbar-b.navbar-reduce .nav-link.show:before, .navbar-b.navbar-reduce .nav-link.active:before {
 	width: 35px;
 }
 
@@ -550,10 +503,7 @@ a:hover {
 	color: #fff;
 }
 
-.navbar-b.navbar-trans .show>.nav-link,
-.navbar-b.navbar-trans .active>.nav-link,
-.navbar-b.navbar-trans .nav-link.show,
-.navbar-b.navbar-trans .nav-link.active {
+.navbar-b.navbar-trans .show>.nav-link, .navbar-b.navbar-trans .active>.nav-link, .navbar-b.navbar-trans .nav-link.show, .navbar-b.navbar-trans .nav-link.active {
 	color: #fff;
 }
 
@@ -576,15 +526,11 @@ a:hover {
 	color: #000000;
 }
 
-.navbar-b.navbar-reduce .show>.nav-link,
-.navbar-b.navbar-reduce .active>.nav-link,
-.navbar-b.navbar-reduce .nav-link.show,
-.navbar-b.navbar-reduce .nav-link.active {
+.navbar-b.navbar-reduce .show>.nav-link, .navbar-b.navbar-reduce .active>.nav-link, .navbar-b.navbar-reduce .nav-link.show, .navbar-b.navbar-reduce .nav-link.active {
 	color: #000000;
 }
 
-.navbar.navbar-b.navbar-trans .nav-link.resume.border,
-.navbar.navbar-b.navbar-reduce .nav-link.resume.border {
+.navbar.navbar-b.navbar-trans .nav-link.resume.border, .navbar.navbar-b.navbar-reduce .nav-link.resume.border {
 	border-width: 2px;
 	border-radius: 32px;
 	width: 120px;
@@ -599,8 +545,7 @@ a:hover {
 	border-color: #000 !important;
 }
 
-.navbar.navbar-b.navbar-trans .nav-link.resume::before,
-.navbar.navbar-b.navbar-reduce .nav-link.resume::before {
+.navbar.navbar-b.navbar-trans .nav-link.resume::before, .navbar.navbar-b.navbar-reduce .nav-link.resume::before {
 	content: '';
 	position: absolute;
 	margin-left: 0px;
@@ -636,9 +581,7 @@ a:hover {
 	font-weight: 600;
 }
 
-.navbar-b .navbar-nav .dropdown-item.show .dropdown-menu,
-.navbar-b .dropdown.show .dropdown-menu,
-.navbar-b .dropdown-btn.show .dropdown-menu {
+.navbar-b .navbar-nav .dropdown-item.show .dropdown-menu, .navbar-b .dropdown.show .dropdown-menu, .navbar-b .dropdown-btn.show .dropdown-menu {
 	-webkit-transform: translate3d(0px, 0px, 0px);
 	transform: translate3d(0px, 0px, 0px);
 	visibility: visible !important;
@@ -664,15 +607,13 @@ a:hover {
 	background-color: #000000;
 }
 
-
 /*--/ Hamburger Navbar /--*/
 
 .navbar-toggler {
 	position: relative;
 }
 
-.navbar-toggler:focus,
-.navbar-toggler:active {
+.navbar-toggler:focus, .navbar-toggler:active {
 	outline: 0;
 }
 
@@ -689,8 +630,7 @@ a:hover {
 	opacity: 1;
 }
 
-.navbar-toggler span:nth-child(1),
-.navbar-toggler span:nth-child(3) {
+.navbar-toggler span:nth-child(1), .navbar-toggler span:nth-child(3) {
 	transition: -webkit-transform .35s ease-in-out;
 	transition: transform .35s ease-in-out;
 	transition: transform .35s ease-in-out, -webkit-transform .35s ease-in-out;
@@ -719,7 +659,6 @@ a:hover {
 	transform: rotate(-135deg);
 	opacity: 0.9;
 }
-
 
 /*======================================
 //--//-->   INTRO
@@ -799,7 +738,6 @@ a:hover {
 	color: #fff;
 }
 
-
 /*======================================
 //--//-->   ABOUT
 ======================================*/
@@ -820,7 +758,6 @@ a:hover {
 .skill-mf span {
 	color: #4e4e4e;
 }
-
 
 .progress-bar {
 	width: 100%;
@@ -854,8 +791,7 @@ a:hover {
 	font-style: italic;
 }
 
-.quote-author,
-.new-quote {
+.quote-author, .new-quote {
 	float: right;
 	position: absolute;
 	right: 4%;
@@ -865,13 +801,11 @@ a:hover {
 	float: left;
 }
 
-.heart,
-.quote-author {
+.heart, .quote-author {
 	margin: .2rem auto;
 }
 
-.heart,
-.new-quote {
+.heart, .new-quote {
 	cursor: pointer;
 }
 
@@ -890,7 +824,6 @@ a:hover {
 	-o-transition: 600ms linear;
 	transition: 600ms linear;
 }
-
 
 /*======================================
 //--//-->   SERVICES
@@ -931,7 +864,6 @@ a:hover {
 	color: #4e4e4e;
 }
 
-
 /*======================================
 //--//-->   COUNTER
 ======================================*/
@@ -956,7 +888,6 @@ a:hover {
 	font-size: 2rem;
 	margin-bottom: 0;
 }
-
 
 /*======================================
 //--//-->   PORTFOLIO
@@ -985,14 +916,14 @@ a:hover {
 
 .work-img img {
 	transition: all 1s;
-	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 
 .work-img img:hover {
 	transition: all 1s;
-	filter: grayscale(0%);
 	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
 }
 
 .work-content {
@@ -1034,11 +965,9 @@ a:hover {
 	font-size: 1.2rem;
 }
 
-
 /*======================================
 //--//-->   TESTIMONIALS
 ======================================*/
-
 
 .testimonials .owl-carousel .owl-item img {
 	width: auto;
@@ -1136,15 +1065,11 @@ a:hover {
 	display: inline-block;
 }
 
-
 /*======================================
 //--//-->   BLOG-SINGLE
 ======================================*/
 
-.post-box,
-.form-comments,
-.box-comments,
-.widget-sidebar {
+.post-box, .form-comments, .box-comments, .widget-sidebar {
 	padding: 2rem;
 	background-color: #fff;
 	margin-bottom: 3rem;
@@ -1181,7 +1106,6 @@ a:hover {
 	padding: 18px;
 	font-style: italic;
 }
-
 
 /*------/ Comments /------*/
 
@@ -1221,7 +1145,6 @@ a:hover {
 .box-comments .comment-children {
 	margin-left: 40px;
 }
-
 
 /*------/ Sidebar /------*/
 
@@ -1275,7 +1198,6 @@ a:hover {
 	color: #fff;
 }
 
-
 /*======================================
 //--//-->   CONTACT
 ======================================*/
@@ -1287,7 +1209,6 @@ a:hover {
 .contact-mf {
 	margin-top: 4rem;
 }
-
 
 /*======================================
 //--//-->   FOOTER
@@ -1315,7 +1236,6 @@ footer .credits {
 	margin-bottom: 0;
 }
 
-
 /*======================================
 //--//-->   CONTACT FORM
 ======================================*/
@@ -1340,9 +1260,7 @@ footer .credits {
 	margin-bottom: 15px;
 }
 
-#sendmessage.show,
-#errormessage.show,
-.show {
+#sendmessage.show, #errormessage.show, .show {
 	display: block;
 }
 
@@ -1353,7 +1271,6 @@ footer .credits {
 	font-weight: 400;
 	font-size: 13px;
 }
-
 
 /*======================================
 //--//-->   BUTTON
@@ -1418,11 +1335,9 @@ footer .credits {
 		margin-top: 3rem;
 		padding-left: 0rem;
 	}
-
 	.card-blog {
 		margin-bottom: 3rem;
 	}
-
 	.contact-mf .box-pl2 {
 		margin-top: 3rem;
 		padding-left: 0rem;
@@ -1433,44 +1348,30 @@ footer .credits {
 	.box-shadow-full {
 		padding: 3rem;
 	}
-
-	.navbar-b.navbar-trans .nav-item,
-	.navbar-b.navbar-reduce .nav-item {
+	.navbar-b.navbar-trans .nav-item, .navbar-b.navbar-reduce .nav-item {
 		padding-left: 10px;
 	}
-
-	.navbar-b.navbar-trans .nav-link:before,
-	.navbar-b.navbar-reduce .nav-link:before {
+	.navbar-b.navbar-trans .nav-link:before, .navbar-b.navbar-reduce .nav-link:before {
 		margin-left: 18px;
 	}
-
 	.intro .intro-title {
 		font-size: 4.5rem;
 	}
-
 	.intro .intro-subtitle {
 		font-size: 2.5rem;
 	}
-
 	.intro-single .intro-title {
 		font-size: 3.5rem;
 	}
-
 	.testimonial-box .description {
 		padding: 0 5rem;
 	}
-
-	.post-box,
-	.form-comments,
-	.box-comments,
-	.widget-sidebar {
+	.post-box, .form-comments, .box-comments, .widget-sidebar {
 		padding: 3rem;
 	}
-
 	.blog-wrapper .article-title {
 		font-size: 1.9rem;
 	}
-
 	.box-comments .list-comments .comment-author {
 		font-size: 1.5rem;
 	}
@@ -1492,5 +1393,4 @@ footer .credits {
 	.back-to-top {
 		bottom: 15px;
 	}
-
 }
