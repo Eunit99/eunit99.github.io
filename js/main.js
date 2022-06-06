@@ -150,13 +150,13 @@ $(document).ready(function () {
 	// Increment the heart counts (favorites) once the heart icon is clicked
 	$heartPlus.click(function () {
 		var $state = true;
-		if ($state = true) {
+		if ($state === true) {
 			$intialCount++;
 			$heartCount.text($intialCount);
 			$heartPlus.addClass("favourited bounceIn");
 			$state = false;
 			// console.log($state);
-		} else if ($state = false) {
+		} else if ($state === false) {
 			$intialCount--;
 			$heartCount.text($intialCount);
 			$heartPlus.removeClass("favourited bounceIn");
@@ -237,7 +237,7 @@ $(document).ready(function () {
 		' Albert Einstein',
 		' George Eliot',
 		' Walt Disney'
-	]
+	];
 
 	function newQuote() {
 		$newQuote.click(function () {
@@ -251,7 +251,7 @@ $(document).ready(function () {
 			$quoteContent.text($currentQuote);
 			// display the generated author in #quote-author using jQuery text method
 			$quoteAuthor.text($currentAuthor);
-		})
+		});
 	}
 
 	newQuote();
